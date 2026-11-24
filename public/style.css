@@ -1,0 +1,16 @@
+.input-group {
+    max-width: 400px;
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+    .input-group {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .input-group .btn {
+        margin-top: 8px;
+        width: 100%;
+    }
+}
